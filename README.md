@@ -11,6 +11,10 @@ Stickee settings for [ESlint](https://eslint.org/)
 
 ## Install
 
+`npx stickee-javascript-code-style'
+
+## Install (manual)
+
 1. If you don't already have a `package.json` create one with `npm init`
 2. Install the peer dependencies of the config
     ```
@@ -34,11 +38,9 @@ Stickee settings for [ESlint](https://eslint.org/)
     ```
 6. Write beautiful JavaScript that makes QA proud
 
-Or just type `npx stickee-javascript-code-style`.
-
 ## Settings
 
-You can override any of the ESLint or Prettier settings. 
+You can override any of the settings:
 
 ```
 {
