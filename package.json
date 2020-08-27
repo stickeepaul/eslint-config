@@ -1,0 +1,49 @@
+{
+  "name": "@stickee/eslint-config",
+  "version": "1.0.0",
+  "description": "Stickee ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "contributors": [
+    "Paul Tibbetts <paul.tibbetts@stickee.co.uk>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "commitizen": "^4.2.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.19.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "husky": "^4.2.5"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^17.1.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stickeeuk/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stickeeuk/eslint-config/issues"
+  },
+  "homepage": "https://github.com/stickeeuk/eslint-config#readme"
+}
